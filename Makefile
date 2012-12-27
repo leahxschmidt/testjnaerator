@@ -61,7 +61,7 @@ jnaerator-0.10-shaded.jar:
 jar: $(SHAREDLIB)  $(JNAERATOR)
 	$(JAVA) -jar $(JNAERATOR) -runtime JNAerator -mode StandaloneJar \
 	-library test $(SHAREDLIB) test.h \
-	-f -arch linux_x64 -package org.getlantern.test -o . \
+	-package org.getlantern.test -o . \
 	-libFile $(SHAREDLIB) -jar java/test_$(JARSUFFIX).jar
 
 $(STATICLIB):	$(LIBOBJS)
