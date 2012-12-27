@@ -1,0 +1,8 @@
+_jnaerator*
+test.o
+libtest.so
+test.a
+test.dll
+*~
+*.class
+*.jar
